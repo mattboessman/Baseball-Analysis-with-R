@@ -2,6 +2,8 @@ library(rvest)
 library(dplyr)
 library(writexl)
 
+#imports year to date stats on a given date
+
 baseurl <- "https://www.baseballmusings.com/cgi-bin/CompareInfo.py?StartDate=04%2F01%2F2025&EndDate=05%2F01%2F2025&GameType=away&PlayedFor=0&PlayedVs=0&Park=0&SortField=AtBats&SortDir=desc&MinPA=0&MinG=0&MinGS=0&MinAB=0&MinR=0&MinH=0&MinDB=0&MinTP=0&MinHR=0&MinRBI=0&MinBB=0&MinIBB=0&MinHP=0&MinK=0&MinSB=0&MinCS=0&MinSH=0&MinSF=0&MinGDP=0&MinCI=0"
 homeall_data <- list(df)
 idx <- 1
